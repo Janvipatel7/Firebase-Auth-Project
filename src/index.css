@@ -8,3 +8,17 @@
     font-family: "Livvic", sans-serif;
     /* border: none; */
 }
+
+.errorPage {
+    background-image: url('/Images/error-page1.jpg');
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
