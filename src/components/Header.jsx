@@ -23,7 +23,7 @@ const Header = () => {
             <nav className="max-w-5xl mx-auto flex justify-between items-center py-4 px-6">
                 <Link href="/" className="flex items-center gap-2">
                     <span className="text-2xl font-semibold text-[#04265d] tracking-wide">
-                        TaskTrack
+                        TaskTracker
                     </span>
                 </Link>
 
