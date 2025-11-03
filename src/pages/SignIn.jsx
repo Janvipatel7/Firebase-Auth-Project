@@ -62,6 +62,13 @@ const SignIn = () => {
                         placeholder="Enter your password"/>
                 </div>
 
+                <div className="mb-4">
+                    <button type="submit" className="w-full bg-[#04265d] hover:bg-[#0f4499] text-white font-medium rounded-lg text-sm sm:text-base px-4 sm:px-5 py-2.5 sm:py-3 transition-all">
+                        Sign In
+                    </button>
+                </div>
+
+
                 <div className="mb-5 sm:mb-6">
                     <button
                         type="button"
@@ -90,13 +97,8 @@ const SignIn = () => {
                     </button>
                 </div>
 
-                <div className="mb-4">
-                    <button type="submit" className="w-full bg-[#04265d] hover:bg-[#0f4499] text-white font-medium rounded-lg text-sm sm:text-base px-4 sm:px-5 py-2.5 sm:py-3 transition-all">
-                        Sign In
-                    </button>
-                </div>
-
-                <p className="text-sm sm:text-md text-center text-gray-700">
+                
+                <p className="text-md text-center text-gray-700 mt-5">
                     Don’t have an account yet?{" "}
                     <Link
                         to={"/sign-up"}
